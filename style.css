@@ -1,0 +1,484 @@
+@import url('https://fonts.googleapis.com/css?family=Asap:400, 500, 700');
+
+.navbar-nav {
+    float:none;
+    margin:0 auto;
+    display: block;
+    text-align: center;
+}
+
+.navbar-nav > li {
+    display: inline-block;
+    float:none;
+}
+
+ .navbar-brand img{
+    width: 80%;
+    height: 100px; /*** As per Your Requirement ***/
+    margin-top: -2.5em;
+    margin-bottom: -1.9em;
+    padding: 9px 55px;
+    float: none;
+    display: block;
+ }
+
+
+.navbar-custom {
+    background-color: #ff5500;
+}
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: rgba(255,255,255,.8);
+}
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    color: #ffffff;
+}
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #806462;
+}
+
+
+
+/*  -------------------------------------------------------------------------------------------------------------------------   */
+
+
+#container {
+  width: 935px;
+  height: 115px;
+  padding: 12px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#header {
+  width: 908px;
+  margin-top: -10px;
+  margin-left: 14px;
+  height: 115px;
+}
+
+#container3 {
+    width: 930px;
+    height: 708px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 12px;
+    border-right-width: 2px;
+    border-left-width: 2px;
+    border-right-style: solid;
+    border-left-style: solid;
+}
+
+#container3 img {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+#container4 {
+    width: 930px;
+    height: 708px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 12px;
+    border-right-width: 2px;
+    border-left-width: 2px;
+    border-right-style: solid;
+    border-left-style: solid;
+}
+
+
+#container4 img {
+    margin-left: auto;
+    margin-right: 20px;
+    padding-left: 180px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+#container5 {
+  background-color: #000000;
+  height: 15px;
+  width: 100%;
+  padding-top: 0;
+  margin-top: 5px;
+}
+
+
+#container7 {
+  background-color: #000000;
+  height: 15px;
+  width: 100%;
+  padding-top: 5px;
+  margin-top: 25px;
+}
+
+#container8 {
+  background-color: #b3b3b3;
+  height: 15px;
+  width: 100%;
+  margin-top: 3px;
+}
+
+
+#footer {
+  width: 935px;
+  height: 100px;
+  padding: 12px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+#footer p {
+  font-family: Asap, sans-serif;
+  font-size: 16px;
+}
+
+
+
+#footer h2 {
+  font-family: Asap, sans-serif;
+  font-size: 12px;
+}
+
+
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+div {
+    display: block;
+}
+
+h3 {
+	margin-bottom: 1em;
+}
+
+.btn-primary {
+	background-image: none;
+	border: none;
+	border-radius: 0;
+	background-color: #2892D7;
+}
+
+body {
+    background-color: #f2f2f2;
+}
+
+/*  -------------------------------------------------------------------------------------------------------------------------   */
+
+#designDiv {
+    overflow-y: auto;
+    max-height: 670px;
+    width: 930px;
+    height: 690px;
+    margin-top: 50px;
+}
+
+#designDiv #container9 {
+    width: 930px;
+}
+
+
+
+
+#designDiv #container9 img {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+
+#designDiv #client {
+    width: 830px;
+    height: 150px;
+    float: left;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 80px;
+}
+
+
+#designDiv #client h2 {
+    font-family: Abel;
+    font-size: 18px;
+    font-weight: normal;
+    color: #2B71B8;
+}
+
+
+#designDiv #client ul li {
+    font-family: Abel;
+    font-size: 14px;
+    line-height: 20px;
+    float: left;
+    width: 250px;
+    margin-right: 25px;
+}
+
+
+#designDiv #services {
+    width: 830px;
+    height: 110px;
+    float: left;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 25px;
+}
+
+#designDiv #services h2 {
+    font-family: Abel;
+    font-size: 18px;
+    font-weight: normal;
+    color: #2B71B8;
+}
+
+#designDiv #services ul li {
+    font-family: Abel;
+    font-size: 14px;
+    line-height: 20px;
+    float: left;
+    width: 250px;
+    margin-right: 25px;
+}
+
+#designDiv #specialprocessing {
+    width: 830px;
+    height: 110px;
+    float: left;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 25px;
+}
+
+#designDiv #specialprocessing h3 {
+    font-family: Abel;
+    font-size: 16px;
+    font-weight: normal;
+    color: #2B71B8;
+}
+
+#designDiv #specialprocessing ul li {
+    font-family: Abel;
+    font-size: 14px;
+    line-height: 20px;
+    float: left;
+    width: 250px;
+    margin-right: 25px;
+}
+
+#designDiv #equiplist {
+    width: 830px;
+    height: 120px;
+    float: left;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#container4 #designDiv #equiplist h2 {
+    font-family: Abel;
+    font-size: 18px;
+    font-weight: normal;
+    color: #2B71B8;
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------------*/
+
+#container4 #designDiv {
+    overflow-y: auto;
+    max-width: 930;
+    max-height: 690px;
+    width: 930px;
+    height: 690px;
+}
+
+#container4 #designDiv #contact {
+    padding-left: 40px;
+    height: 500px;
+    padding-top: 50px;
+}
+
+
+#container4 #designDiv #contact h1 {
+    font-family: Abel;
+    font-size: 30px;
+    font-weight: bold;
+    color: #2B71B8;
+    padding-left: 50px;
+}
+
+#container4 #designDiv #contact #aboutus {
+    float: left;
+    padding-left: 100px;
+    padding-top: 20px;
+}
+
+
+#container4 #designDiv #contact #aboutus h3 {
+    font-family: Abel;
+    font-size: 18px;
+    font-weight: bold;
+    color: #2B71B8;
+}
+
+
+#container4 #designDiv #contact #aboutus #manager p {
+    font-family: Abel;
+    font-size: 16px;
+    padding-left: 50px;
+}
+
+
+#container4 #designDiv #contact #aboutus #address p {
+    font-family: Abel;
+    font-size: 16px;
+    padding-left: 50px;
+}
+
+
+#container4 #designDiv #contact #aboutus #phone p {
+    font-family: Abel;
+    font-size: 16px;
+    padding-left: 50px;
+}
+
+
+#container4 #designDiv #contact #img {
+    float: right;
+    padding-right: 100px;
+    padding-top: 20px;
+}
+
+
+#container4 #designDiv #contact #img h3 {
+    font-family: Abel;
+    font-size: 18px;
+    color: #2B71B8;
+    font-weight: bold;
+}
+
+
+#container4 #designDiv #contact #img img {
+    padding-top: 10px;
+    padding-left: 50px;
+}
+
+/* Basic Grey */
+/* https://www.sanwebe.com/2013/10/css-html-form-styles */
+.basic-grey {
+    margin-left:auto;
+    margin-right:auto;
+    max-width: 500px;
+    background: #F7F7F7;
+    padding: 25px 15px 25px 10px;
+    font: 12px Georgia, "Times New Roman", Times, serif;
+    color: #888;
+    text-shadow: 1px 1px 1px #FFF;
+    border:1px solid #E4E4E4;
+}
+.basic-grey h1 {
+    font-size: 25px;
+    padding: 0px 0px 10px 40px;
+    display: block;
+    border-bottom:1px solid #E4E4E4;
+    margin: -10px -15px 30px -10px;;
+    color: #888;
+}
+.basic-grey h1>span {
+    display: block;
+    font-size: 11px;
+}
+.basic-grey label {
+    display: block;
+    margin: 0px;
+}
+.basic-grey label>span {
+    float: left;
+    width: 20%;
+    text-align: right;
+    padding-right: 10px;
+    margin-top: 10px;
+    color: #888;
+}
+.basic-grey input[type="text"], .basic-grey input[type="password"], .basic-grey input[type="email"], .basic-grey textarea, .basic-grey select {
+    border: 1px solid #DADADA;
+    color: #888;
+    height: 30px;
+    margin-bottom: 16px;
+    margin-right: 6px;
+    margin-top: 2px;
+    outline: 0 none;
+    padding: 3px 3px 3px 5px;
+    width: 70%;
+    font-size: 12px;
+    line-height:15px;
+    box-shadow: inset 0px 1px 4px #ECECEC;
+    -moz-box-shadow: inset 0px 1px 4px #ECECEC;
+    -webkit-box-shadow: inset 0px 1px 4px #ECECEC;
+}
+.basic-grey textarea{
+    padding: 5px 3px 3px 5px;
+}
+.basic-grey select {
+    background: #FFF url('down-arrow.png') no-repeat right;
+    background: #FFF url('down-arrow.png') no-repeat right);
+    appearance:none;
+    -webkit-appearance:none; 
+    -moz-appearance: none;
+    text-indent: 0.01px;
+    text-overflow: '';
+    width: 70%;
+    height: 35px;
+    line-height: 25px;
+}
+.basic-grey textarea{
+    height:100px;
+}
+.basic-grey .button {
+    background: #E27575;
+    border: none;
+    padding: 10px 25px 10px 25px;
+    color: #FFF;
+    box-shadow: 1px 1px 5px #B6B6B6;
+    border-radius: 3px;
+    text-shadow: 1px 1px 1px #9E3F3F;
+    cursor: pointer;
+}
+.basic-grey .button:hover {
+    background: #CF7A7A;
+}
+
+
+#design-cast {
+    position: relative;
+    overflow: hidden;
+}
+
+.item {
+    display: inline-block;
+    width:20%;
+    vertical-align: top;
+    text-align:center;
+}
+
+.item img {
+    width: 100%;
+    display: block;
+}
+
+.btn-link {
+    display: inline;
+}
